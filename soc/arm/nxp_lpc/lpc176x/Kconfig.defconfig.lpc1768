@@ -1,0 +1,10 @@
+# NXP LPC1768 platform configuration options
+
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_LPC1768
+
+config SOC
+	default "lpc1768"
+
+endif # SOC_LPC1768
