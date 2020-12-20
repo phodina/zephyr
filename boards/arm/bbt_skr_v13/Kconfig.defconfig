@@ -1,0 +1,10 @@
+# BIGTREETECH SKR V1.3
+
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_BBT_SKR_V13
+
+config BOARD
+	default "bbt_skr_v13"
+
+endif # BOARD_BBT_SKR_V13

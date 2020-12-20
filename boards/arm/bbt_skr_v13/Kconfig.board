@@ -1,0 +1,8 @@
+# BIGTREETECH SKR V1.3
+
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_BBT_SKR_V13
+	bool "BIGTREETECH SKR V1.3"
+	depends on SOC_SERIES_LPC17XX
+	select SOC_PART_NUMBER_LPC1768

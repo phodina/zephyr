@@ -1,0 +1,13 @@
+identifier: lpcxpresso1768
+name: NXP LPCxpresso 1768
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+supported:
+  - clock_controller
+  - pinmux
+  - gpio
+  - i2c
+  - serial
+  - eeprom
